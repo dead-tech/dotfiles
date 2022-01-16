@@ -54,3 +54,9 @@ $ ./install_brave.sh
 ```console
 $ ./install_code.sh
 ```
+
+### Installing Discord
+
+```console
+$ ./install_discord.sh
+```
