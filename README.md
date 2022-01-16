@@ -61,3 +61,9 @@ $ ./install_code.sh
 ```console
 $ ./install_discord.sh
 ```
+
+### Installing Spotify
+
+```console
+$ ./install_spotify.sh
+```
