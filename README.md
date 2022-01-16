@@ -23,6 +23,7 @@ Executing this command is installing:
  - i3
  - fonts-dejavu-core
  - cmake
+ - pavucontrol
 
 Also remember you can sync settings across machines with brave sync chain.
 

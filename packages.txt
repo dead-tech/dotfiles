@@ -4,3 +4,4 @@ rxvt-unicode
 i3
 fonts-dejavu-core
 cmake
+pavucontrol
