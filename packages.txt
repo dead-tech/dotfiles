@@ -1,0 +1,6 @@
+git
+vim
+rxvt-unicode
+i3
+fonts-dejavu-core
+cmake
