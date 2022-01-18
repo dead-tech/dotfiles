@@ -118,3 +118,5 @@ fi
 
 alias clion="/opt/clion-2021.3.2/bin/clion.sh"
 alias cd..="cd .."
+
+export PATH="/opt/bin/:$PATH"
