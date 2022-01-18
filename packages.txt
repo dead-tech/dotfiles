@@ -5,3 +5,6 @@ i3
 fonts-dejavu-core
 cmake
 pavucontrol
+cmatrix
+htop
+neofetch

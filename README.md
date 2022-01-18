@@ -24,6 +24,9 @@ Executing this command is installing:
  - fonts-dejavu-core
  - cmake
  - pavucontrol
+ - neofetch
+ - htop
+ - cmatrix
 
 Also remember you can sync settings across machines with brave sync chain.
 
