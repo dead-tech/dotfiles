@@ -8,3 +8,4 @@ pavucontrol
 cmatrix
 htop
 neofetch
+wine
