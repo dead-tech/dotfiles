@@ -27,6 +27,7 @@ Executing this command is installing:
  - neofetch
  - htop
  - cmatrix
+ - flameshot
 
 Also remember you can sync settings across machines with brave sync chain.
 
@@ -41,6 +42,12 @@ Executing this script is installing:
  - clang-13
  - build-essential
 
+### Installing NodeJS (with nvm)
+
+```console
+$ ./install_nodejs.sh
+```
+
 ### Installing urxvt resize-font extension
 
 ```console
@@ -54,6 +61,16 @@ $ ./install_brave.sh
 ```
 
 ### Installing Visual Studio Code
+
+```console
+$ ./install_code.sh
+```
+
+### Installing CLion 
+
+```console
+$ ./install_clion.sh
+```
 
 ```console
 $ ./install_code.sh
