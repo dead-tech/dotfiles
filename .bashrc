@@ -141,3 +141,7 @@ alias aptup="sudo apt update && sudo apt upgrade"
 alias aptupd="sudo apt update"
 alias aptupg="sudo apt upgrade"
 alias aptrm="sudo apt remove"
+
+alias gst="git status"
+alias gaa="git add ."
+alias gcm="git commit -m"
