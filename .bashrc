@@ -140,6 +140,7 @@ alias rm="rm -vi"
 alias aptup="sudo apt update && sudo apt upgrade"
 alias aptupd="sudo apt update"
 alias aptupg="sudo apt upgrade"
+alias aptin="sudo apt update && sudo apt install"
 alias aptrm="sudo apt remove"
 
 alias gst="git status"
