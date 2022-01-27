@@ -145,3 +145,6 @@ alias aptrm="sudo apt remove"
 alias gst="git status"
 alias gaa="git add ."
 alias gcm="git commit -m"
+
+alias path="echo -e ${PATH//:/\\n}"
+alias ping="ping -c 5"
