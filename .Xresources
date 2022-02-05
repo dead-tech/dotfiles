@@ -6,7 +6,7 @@ Xft.hintstyle:  hintmedium
 URxvt.termName: rxvt
 URxvt*depth: 32
 URxvt.transparent: false
-URxvt.font: xft:Dejavu Sans Mono:size=11
+URxvt.font: xft:Iosevka:size=16
 URxvt.scrollBar: false
 
 ! Gruber-Darker
