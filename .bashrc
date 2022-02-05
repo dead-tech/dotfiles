@@ -129,6 +129,12 @@ parse_git_branch()
 
 export PS1="\[\e[32m\]\W \[\e[91m\]\$(parse_git_branch)\[\e[00m\] > "
 
+# Function to open a git repo from terminal
+openrepo()
+{
+    git remote -v | head -n 1 | awk -F "@" '{print $2}' | awk -F " " '{print $1}' | sed 's/:/\//g' | sed 's/.git//g' | awk '{print "http://"$1}' | xargs brave-browser
+}
+
 # Aliases 
 alias ..="cd .."
 alias cl="clear"
