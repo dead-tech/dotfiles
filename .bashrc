@@ -131,6 +131,7 @@ export PS1="\[\e[32m\]\W \[\e[91m\]\$(parse_git_branch)\[\e[00m\] > "
 
 # Aliases 
 alias ..="cd .."
+alias cl="clear"
 alias ll="ls -lAhF"
 alias mkdir="mkdir -pv"
 alias cp="cp -vi"
