@@ -72,10 +72,6 @@ $ ./install_code.sh
 $ ./install_clion.sh
 ```
 
-```console
-$ ./install_code.sh
-```
-
 ### Installing Discord
 
 ```console
