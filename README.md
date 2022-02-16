@@ -93,3 +93,9 @@ $ ./install_spotify.sh
 ```console
 $ ./install_nvim.sh
 ```
+
+### Installing Zsh and Oh-My-Zsh
+
+```console
+$ ./install_oh_my_zsh.sh
+```
