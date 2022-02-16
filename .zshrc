@@ -5,7 +5,13 @@ ZSH_THEME="agnoster"
 
 HIST_STAMPS="mm/dd/yyyy"
 
-plugins=(git)
+plugins=(
+  git
+  # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  zsh-autosuggestions
+  # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -44,3 +50,6 @@ alias path="echo -e ${PATH//:/\\n}"
 alias ping="ping -c 5"
 
 alias vim="nvim"
+
+alias editrc="nvim ~/.zshrc"
+alias sourcerc="source ~/.zshrc"
