@@ -87,3 +87,9 @@ $ ./install_discord.sh
 ```console
 $ ./install_spotify.sh
 ```
+
+### Installing Neovim 
+
+```console
+$ ./install_nvim.sh
+```
