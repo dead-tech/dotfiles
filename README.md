@@ -28,6 +28,7 @@ Executing this command is installing:
  - htop
  - cmatrix
  - flameshot
+ - cloc
 
 Also remember you can sync settings across machines with brave sync chain.
 

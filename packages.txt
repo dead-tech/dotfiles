@@ -9,3 +9,4 @@ cmatrix
 htop
 neofetch
 flameshot
+cloc
