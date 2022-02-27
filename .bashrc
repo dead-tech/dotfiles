@@ -115,7 +115,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="/opt/bin/:$PATH"
+export PATH="/home/dead/.local/bin/:/opt/bin/:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

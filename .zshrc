@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 HIST_STAMPS="mm/dd/yyyy"
 
@@ -11,11 +11,14 @@ plugins=(
   zsh-autosuggestions
   # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
   zsh-syntax-highlighting
+  # git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+  zsh-z
+  web-search
 )
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/opt/bin/:$PATH"
+export PATH="/home/dead/.local/bin/:/opt/bin/:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -53,3 +56,4 @@ alias vim="nvim"
 
 alias editrc="nvim ~/.zshrc"
 alias sourcerc="source ~/.zshrc"
+
