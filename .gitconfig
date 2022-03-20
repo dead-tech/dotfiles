@@ -5,4 +5,4 @@
 	defaultBranch = main
 
 [alias]
-  hist = git log --graph
+  hist = log --graph
