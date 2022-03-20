@@ -3,3 +3,6 @@
 	email = dev.dead.tech@gmail.com
 [init]
 	defaultBranch = main
+
+[alias]
+  hist = git log --graph
