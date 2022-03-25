@@ -29,6 +29,9 @@ Executing this command is installing:
  - cmatrix
  - flameshot
  - cloc
+ - nasm
+ - tree
+ - pip
 
 Also remember you can sync settings across machines with brave sync chain.
 
