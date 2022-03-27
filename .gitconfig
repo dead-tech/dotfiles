@@ -6,3 +6,4 @@
 
 [alias]
   hist = log --graph
+  gstfull = status -uall
