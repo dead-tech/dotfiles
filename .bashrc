@@ -158,3 +158,4 @@ alias path="echo -e ${PATH//:/\\n}"
 alias ping="ping -c 5"
 
 alias vim="nvim"
+. "$HOME/.cargo/env"

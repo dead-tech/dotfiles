@@ -99,3 +99,25 @@ $ ./install_nvim.sh
 ```console
 $ ./install_oh_my_zsh.sh
 ```
+
+### Installing Rust toolchain and cargo
+
+```console
+$ ./install_cargo.sh
+```
+
+### Install Alacritty
+
+```console
+$ ./install_alacritty.sh
+```
+
+You may also need to install:
+ - libfontconfig
+ - libfontconfig1-dev
+ - libxcb-render0
+ - libxcb-render0-dev
+ - libxcb-shape0
+ - libxcb-shape0-dev
+ - libxcb-xfixes0
+ - libxcb-xfixes0-dev
