@@ -1,8 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
-
 HIST_STAMPS="mm/dd/yyyy"
 
 plugins=(
@@ -59,3 +57,6 @@ alias sourcerc="source ~/.zshrc"
 
 # Cargo
 . "$HOME/.cargo/env"
+
+# Starship theme
+eval "$(starship init zsh)"
