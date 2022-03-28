@@ -13,3 +13,4 @@ cloc
 nasm
 tree
 python3-pip
+feh

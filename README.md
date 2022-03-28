@@ -32,6 +32,7 @@ Executing this command is installing:
  - nasm
  - tree
  - pip
+ - feh
 
 Also remember you can sync settings across machines with brave sync chain.
 
