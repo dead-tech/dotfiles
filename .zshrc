@@ -57,3 +57,5 @@ alias vim="nvim"
 alias editrc="nvim ~/.zshrc"
 alias sourcerc="source ~/.zshrc"
 
+# Cargo
+. "$HOME/.cargo/env"

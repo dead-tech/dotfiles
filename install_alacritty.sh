@@ -7,4 +7,4 @@ if ! cargo --version &> /dev/null; then
   exit 1
 fi
 
-cargo install alacritty
+cargo install alacritty && sudo cp ~/.cargo/bin/alacritty /usr/local/bin
