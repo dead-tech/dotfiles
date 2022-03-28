@@ -23,15 +23,16 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'chriskempson/base16-vim'
 call plug#end()
 
 " Colorscheme
-autocmd vimenter * ++nested colorscheme gruvbox
+colorscheme base16-tomorrow-night
 
 let mapleader = " "
 
 " Airline
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'base16_tomorrow_night'
 let g:airline_powerline_fonts = 1
 
 " NerdTree
