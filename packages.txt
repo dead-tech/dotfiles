@@ -2,6 +2,7 @@ git
 vim
 rxvt-unicode
 i3
+i3-gaps
 fonts-dejavu-core
 cmake
 pavucontrol

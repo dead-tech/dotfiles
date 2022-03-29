@@ -34,6 +34,11 @@ Executing this command is installing:
  - pip
  - feh
 
+ **NOTE**: To install i3-gaps you might also need to run this before installing it
+ ```console
+$ sudo add-apt-repository ppa:regolith-linux/release\
+ ```
+
 Also remember you can sync settings across machines with brave sync chain.
 
 ### Installing C++ Tools
