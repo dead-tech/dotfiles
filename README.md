@@ -33,6 +33,7 @@ Executing this command is installing:
  - tree
  - pip
  - feh
+ - tmux
 
  **NOTE**: To install i3-gaps you might also need to run this before installing it
  ```console
