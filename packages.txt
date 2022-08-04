@@ -16,3 +16,4 @@ tree
 python3-pip
 feh
 tmux
+vlc

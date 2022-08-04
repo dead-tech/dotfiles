@@ -34,6 +34,7 @@ Executing this command is installing:
  - pip
  - feh
  - tmux
+ - vlc
 
  **NOTE**: To install i3-gaps you might also need to run this before installing it
  ```console
