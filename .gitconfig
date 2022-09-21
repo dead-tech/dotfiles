@@ -3,7 +3,8 @@
 	email = dev.dead.tech@gmail.com
 [init]
 	defaultBranch = main
-
+[core]
+  editor = nvim
 [alias]
   hist = log --graph
   gstfull = status -uall
