@@ -58,3 +58,7 @@ alias sourcerc="source ~/.zshrc"
 
 # Starship theme
 eval "$(starship init zsh)"
+
+# Zsh-z
+autoload -U compinit && compinit
+zstyle ':completion:*' menu select
