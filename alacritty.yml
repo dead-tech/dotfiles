@@ -46,17 +46,17 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: Iosevka 
+    family: JetBrains Mono 
     style: Regular
 
   # The bold font face
     bold:
-      family: Iosevka
+      family: JetBrains Mono
     style: Regular 
 
   # The italic font face
   italic:
-    family: Iosevka
+    family: JetBrains Mono
     style: Regular
 
   # Point size of the font
