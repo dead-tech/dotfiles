@@ -27,3 +27,6 @@ vim.keymap.set("n", "Q", "<nop>")
 
 -- Replace current word
 vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+-- Allow esc to exit terminal mode
+vim.keymap.set("t", "<Esc>", "<C-\\><C-N>")
